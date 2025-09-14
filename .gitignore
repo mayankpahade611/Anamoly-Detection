@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints
+
+# --- Logs & System ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Data Files ---
+# Ignore all datasets inside /data and in project root
+data/
+*.csv
+*.zip
+*.json
+
+# --- Model Files ---
+*.h5
+*.hdf5
+*.pt
+*.onnx
+*.model
+
+# --- IDE/Editor Specific ---
+.vscode/
+.idea/
