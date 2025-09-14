@@ -13,7 +13,6 @@ for file in sorted(os.listdir(data)):
     if file.endswith(".zip"):
         zip_path = os.path.join(data, file)
         print(f"Extracting {file}...")
-
         # Unzip
         with zipfile.ZipFile(zip_path, 'r') as zip_ref:
             zip_ref.extractall(data)
